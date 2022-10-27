@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {font-family: sans-serif;
+flex: 1;}
+
+.logo {
+    background-color: white;
+    background-image: url("../images/jakes-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.nav {
+    display: flex;
+    background-color:  black;
+    padding: 20px;
+}
+
+.left {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center a {
+    padding: 20px;
+    color: white;
+}
+
+.left button {
+    background-color: #08cef1;
+    padding: 20px;
+}
+
+.right button {
+    background-color: #fcfc0d;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .meal1 {
+    background-image: url("../images/steak.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  .meal2 {
+    background-image: url("../images/soup.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .meal3 {
+    background-image: url("../images/cheesecake.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .text {
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+  }
+  .text p {
+    color: white;
+    font-family: Arial;
+  }
+
+.text p {
+    color:  white;
+}
+
+.footer {
+    background-color:  black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    padding: 20px 30px;
+
+}
+
+.fb {
+    color: #27d2f0;
+}
+
+.tw {
+    color: yellow;
+}
+
+.ig {
+    color:red ;
+}
